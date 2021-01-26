@@ -1,0 +1,26 @@
+/*all p tags*/
+p {
+    font-family: 'Roboto Mono', monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+}
+
+/* Body*/
+#Header {
+    color: green;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Nav Bar*/
+.nav navbar-nav {
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Header 2*/
+.h2 {
+    color:gray;
+    font-family: monospace;
+    width: 
+}
+
+.p {}
+
