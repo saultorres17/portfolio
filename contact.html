@@ -5,26 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href= "/Users/saultorres17/Desktop/HW1-SemanticTags/index.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    
-   <style>
-   #BioHeader {
-        color: green;
-        font-size: 3em;
-        font-family:sans-serif
-    }
+    <link rel="stylesheet" href="style.css">
 
-    .mysubHeader {
-        font-size: 2em;
-    }
-    h1 {
-        text-decoration: dashed;
-    }
-    
-</style>
-<!-- Latest compiled and minified CSS -->
+
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -33,58 +19,41 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<style>
+ #myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+ }
+    .Header{
+
+    }
+</style>
 </head>
+<!--Site Header-->
 <body>
-    <div> 
-        <div class="Header">
-        
-            <h1 id="BIoHeader"class="myHeader">Saul Torres Morales</h1>
-            </header>  
-        </div>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"></a>
-              </div>
-          
-              <!-- Nav Bar-->>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="/Users/saultorres17/Desktop/HW1-SemanticTags/index.html">Home/About <span class="sr-only">(current)</span></a></li>
-                  <li><a href="/Users/saultorres17/Desktop/HW1-SemanticTags/contact.html">Contact</a></li>
-                  <li class="dropdown">
-                  </li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Link</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Portfolio <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
+  <header>
+  <div class="Header">
+      <h1 id="myHeader"><b>Saul Torres Morales</b></h1>
+  </div>
+<!--Nav Bar-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">STM Web Design</a>
     </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--Section 1-->
+<section>
     <h1><span class="w3-tag">Contact info</span></h1>
     <form>
         <div class="form-group">
@@ -101,6 +70,7 @@
 
         </div>
     </form>
+  </section>
     
 </body>
 <!-- Footer -->

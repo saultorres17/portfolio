@@ -3,20 +3,31 @@ p {
     font-family: 'Roboto Mono', monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 }
 
-/* Body*/
-#Header {
-    color: green;
-    font-family: 'Roboto Mono', monospace;
+/* Header*/
+.Header {
+    background-color: ;
+    color: white;
+    padding: 10px; 
+    text-align: Right;
+}
+#myHeader {
+    background-color: aliceblue;
+    color:green;
+    padding: 20px;
+    text-align: center;
 }
 
+/* Body*/
+
+
 /* Nav Bar*/
-.nav navbar-nav {
+.navbar navbar-inverse {
     color: grey;
     font-family: 'Roboto Mono', monospace;
 }
 
 /* Header 2*/
-.h2 {
+.Header {
     color:gray;
     font-family: monospace;
     width: 
